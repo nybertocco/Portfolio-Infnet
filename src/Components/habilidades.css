@@ -1,0 +1,46 @@
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    width: 53%;
+    padding: 2rem;
+    margin-left: auto; 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 45rem;
+    
+}
+
+.habilidades h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.habilidades menu {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.habilidades menu li {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(214, 213, 213);
+    border-bottom: 1px solid #eee;
+    text-align: left; 
+    list-style: none;
+}
+
+.habilidades menu li:last-child {
+    border-bottom: none;
+}

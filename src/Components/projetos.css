@@ -1,0 +1,58 @@
+.projetos {
+    border: 1px solid;
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 2rem; 
+    padding: 2rem; 
+    background-color: rgb(25, 25, 25);
+}
+
+.projetos h1 {
+    height: 2.5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    left: 47%;
+    font-size: 3.5rem;
+    color: rgb(214, 213, 213);
+}
+
+.projetos card {
+    margin-top: 8rem;
+    margin-right: 4rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1 1 calc(33% - 2rem); 
+    padding: 1rem; 
+    transition: transform 0.3s ease; 
+}
+
+.projetos card:hover {
+    transform: translateY(-5px); 
+}
+
+.projetos img {
+    border-radius: 8px; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.projetos h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.projetos a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(65, 65, 255); 
+}
+
+.projetos a:hover {
+    text-decoration: underline;
+}
